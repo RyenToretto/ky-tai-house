@@ -1,8 +1,9 @@
-# `Vite 2.x + Vue 3.x + Tailwind 2.x starter ⚡`
+## ky-tai-house ⚡`
+- [icons](https://heroicons.com/)
+- [教程](https://github.com/web2033/vite-vue3-tailwind-starter)
 
-![Vite, Vue, Tailwind CSS](https://user-images.githubusercontent.com/11320080/111277027-a9384c00-8640-11eb-8323-21889bd7c609.png)
-
-This starter template also includes:
+#### `Vite 2.x + Vue 3.x + Tailwind 2.x project ⚡`
+This project also includes:
 
 - [Vue Router 4.x](https://github.com/vuejs/vue-router-next)
 - [Inter var font](https://github.com/rsms/inter) (self-hosted, woff2, v3.18, with 'preload' attr, check out index.html)
@@ -28,17 +29,7 @@ cd vvt-app
 npm:
 ```sh
 npm i
-npm run dev
-npm run build
-npm run serve
-```
-
-yarn:
-```sh
-yarn
-yarn dev
-yarn build
-yarn serve
+npm start
 ```
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/web2033/vite-vue3-tailwind-starter)

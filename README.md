@@ -1,8 +1,10 @@
 ## ky-tai-house ⚡`
+
 - [icons](https://heroicons.com/)
 - [教程](https://github.com/web2033/vite-vue3-tailwind-starter)
 
 #### `Vite 2.x + Vue 3.x + Tailwind 2.x project ⚡`
+
 This project also includes:
 
 - [Vue Router 4.x](https://github.com/vuejs/vue-router-next)
@@ -10,7 +12,7 @@ This project also includes:
 - [Just-in-Time](https://tailwindcss.com/docs/just-in-time-mode) mode by default introduced in Tailwind CSS v2.1 (in preview!)
 - [Headless UI](https://headlessui.dev/vue/menu) - unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS
 - [Heroicons](https://github.com/tailwindlabs/heroicons#vue) - beautiful hand-crafted SVG icons,
-by the makers of Tailwind CSS
+  by the makers of Tailwind CSS
 
 First-party plugins needed for Tailwind UI:
 
@@ -27,6 +29,7 @@ cd vvt-app
 ```
 
 npm:
+
 ```sh
 npm i
 npm start
@@ -35,6 +38,7 @@ npm start
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/web2033/vite-vue3-tailwind-starter)
 
 #### Bonus links
+
 - [Enabling https on localhost](https://github.com/web2033/vite-vue3-tailwind-starter/discussions/112) (dev notes)
 - [Vite dev server with netlify dev support](https://github.com/web2033/vite-vue3-tailwind-starter/discussions/113) (dev notes)
 - [vue-tailwindcss-cdn](https://github.com/web2033/vue-tailwindcss-cdn) (a single HTML file with CDN links)

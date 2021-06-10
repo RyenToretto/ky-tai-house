@@ -1,13 +1,38 @@
 <template>
   <div>
-    <header class="bg-white shadow" v-if="$route.meta.title">
-      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold leading-tight text-gray-900">{{ $route.meta.title }}</h1>
-      </div>
-    </header>
+    <main class="main-container">
+      <div class="top"></div>
 
-    <main>
-      <router-view></router-view>
+      <div class="bottom">
+        <div class="left"></div>
+
+        <div class="right">
+          <div class="content">
+            <router-view></router-view>
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'App'
+})
+</script>
+
+<style lang="scss" scoped>
+.main-container {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  .content {
+    box-sizing: border-box;
+  }
+}
+</style>

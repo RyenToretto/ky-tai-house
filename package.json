@@ -1,8 +1,9 @@
 {
-  "name": "vite2-vue3-tailwind2-starter",
+  "name": "ky-tai-house",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "npm run dev",
     "dev": "vite --host",
     "build": "vite build",
     "serve": "vite preview"

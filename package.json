@@ -10,7 +10,8 @@
     "lint": "eslint --fix ./src --ext .vue,.js,.ts",
     "prettier": "npx prettier --write .",
     "prepare": "husky install",
-    "build": "vue-tsc --noEmit && vite build"
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "build:prod": "vue-tsc --noEmit && vite build"
   },
   "lint-staged": {
     "*.{vue,js,ts}": "eslint --fix"

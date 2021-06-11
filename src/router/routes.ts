@@ -1,20 +1,25 @@
 import { RouteRecordRaw } from 'vue-router'
 
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import NotFound from '../views/NotFound.vue'
-
 const routes: Array<RouteRecordRaw> = [
-  { path: '/', component: Home, meta: { title: 'Home' } },
   {
-    path: '/about',
-    meta: { title: 'About' },
-    component: About
-    // example of route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import('./views/About.vue')
+    path: '/',
+    redirect: '/home'
   },
-  { path: '/:path(.*)', component: NotFound }
+  {
+    name: 'home',
+    path: '/home',
+    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue'),
+    meta: { title: 'Home' }
+  },
+  {
+    name: 'about',
+    path: '/about',
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    meta: { title: 'About' }
+  },
+  {
+    path: '/:path(.*)',
+    component: () => import(/* webpackChunkName: "about" */ '../views/NotFound.vue')
+  }
 ]
 export default routes

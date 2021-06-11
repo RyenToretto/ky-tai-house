@@ -26,7 +26,7 @@
           sm:text-4xl sm:leading-10
         "
       >
-        Kou & Wang~
+        Kou & Wang~~~
       </h2>
       <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">

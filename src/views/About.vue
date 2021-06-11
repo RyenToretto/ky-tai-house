@@ -20,7 +20,7 @@
           sm:text-4xl sm:leading-10
         "
       >
-        About Page
+        About Page~e~~
       </h2>
       <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">

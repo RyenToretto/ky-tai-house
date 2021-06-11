@@ -1,19 +1,17 @@
 <template>
-  <div>
-    <main class="main-container">
-      <div class="top"></div>
+  <main class="main-container">
+    <div class="top"></div>
 
-      <div class="bottom">
-        <div class="left"></div>
+    <div class="bottom">
+      <div class="left"></div>
 
-        <div class="right">
-          <div class="content">
-            <router-view></router-view>
-          </div>
+      <div class="right">
+        <div class="content">
+          <router-view></router-view>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
 </template>
 
 <script lang="ts">

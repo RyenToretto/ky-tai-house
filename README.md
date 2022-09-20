@@ -21,7 +21,7 @@ First-party plugins needed for Tailwind UI:
 - [tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
 - [tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
 
-### Getting Started 🚀
+### Getting Started~ 🚀
 
 ```sh
 npx degit web2033/vite-vue3-tailwind-starter vvt-app
